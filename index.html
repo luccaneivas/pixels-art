@@ -4,19 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Projeto - Pixels Art</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pixels Art</title>
 </head>
 <body>
-  <header>
-    <h1 id="title">Paleta de Cores</h1>
-  </header>
+  <script src="script.js" defer></script>
   <main>
-    <section id="color-palette"></section>
-    <section class="clear-container"><button id="clear-board" value="Limpar">Limpar</button></section>
-    <section class="resize-container"><input type="number" name="board-size" id="board-size" min="1" max="50"><button id="generate-board">VQV</button></section>
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <section id="color-palette">
+      <div id="new-color">+</div>
+    </section>
+    <section class="resize-container">
+      <div class="change-size" id="decrement-size">-</div>
+      <div>Tamanho</div>
+      <div class="change-size" id="increment-size">+</div>
+    </section>
     <section id="pixel-board"></section>
+    <section class="clear-container">
+      Limpar
+    </section>
   </main>
-  <script src="script.js"></script>
 </body>
 </html>
