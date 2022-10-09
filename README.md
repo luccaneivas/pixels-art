@@ -1,10 +1,12 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Pixels Art 🖌️
+
+Repositório do meu terceiro projeto feito na Trybe!
+
+## Tecnologias Utilizadas
+
+- __JavaScript__: todos os exercícios deste repositório foram feitos com esta linguagem maravilhosa. Aqui foram praticados conceitos como o uso de _loops_, condicionais e manipulação de __DOM__.
+- __CSS__: para deixar o projeto muito mais bonito.
+
+Foi feito um deploy do projeto que pode ser encontrado [aqui](luccas-pixels-art.vercel.app/)!
+
+Fique a vontade para testar sua imaginação.
